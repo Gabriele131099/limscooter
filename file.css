@@ -1,0 +1,85 @@
+.bottone {
+  text-align: center;
+  background-color: lime;
+  color: black;   /* Bottoni e sfondo */
+  border-radius: 3px;
+  padding: 1%;
+}
+
+.bottone :hover {
+  background-color: #4CAF50; /* Verde al passaggio mouse */
+  color: white;
+}
+
+
+.sfondo
+{
+  background-image: url('background.jpg');
+  background-size: cover;               /* Sfondo */
+}
+
+body>div
+{
+display: inline-block;
+width: 50%;
+height: 700px;
+margin-top: 3%;                    /*contenitore*/
+margin-left: 25%;
+background-color: rgba(0, 0, 0, 0.5);
+padding-left: 4%;
+padding-right: 4%;
+border-radius: 20px;
+margin-bottom: 10%;
+
+}
+
+h3, b {
+  color: white;
+  display: inline;
+}
+
+p
+{
+  color: lightgrey;
+  display: inline;
+  font: 12px;
+}
+
+b, h3, p
+{
+  font-family: 'Ubuntu', sans-serif;  /* Font Google */
+}
+
+h1
+{
+  color: lime;
+}
+
+.logo
+{
+    padding-top: 7%;
+    text-align: center;
+}
+
+.gino, .mike, .fede       /* Tipologie Monopattino */
+{
+      height: 25px;
+      border-radius: 5px;
+}
+
+.gino
+{
+      background-color: orange;
+      width: 50%;
+}
+.mike
+{
+      background-color: lime;
+      width: 80%;
+}
+
+.fede
+{
+      background-color: #A52A2A;
+      width: 20%;
+}
